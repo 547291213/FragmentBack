@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xkfeng.fragmentback.FragmentBack.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/tv_view"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TextView"
+           android:textSize="22sp"
+           android:gravity="center_horizontal"
+           />
+
+       <Button
+           android:id="@+id/bt_Btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+           android:text="Btn"
+           android:textSize="22sp"
+
+           />
+
+       <FrameLayout
+           android:id="@+id/fm_fragLayout"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+       </FrameLayout>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
